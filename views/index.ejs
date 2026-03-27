@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Crypto Tracker</title>
+</head>
+<body>
+  <h1>Crypto Price Checker</h1>
+
+  <form action="/price" method="POST">
+    <select name="crypto">
+      <option value="BTC">Bitcoin</option>
+      <option value="ETH">Ethereum</option>
+      <option value="LTC">Litecoin</option>
+    </select>
+
+    <select name="currency">
+      <option value="USD">USD</option>
+      <option value="EUR">EUR</option>
+    </select>
+
+    <button type="submit">Check Price</button>
+  </form>
+</body>
+</html>

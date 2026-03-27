@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Result</title>
+</head>
+<body>
+  <h2>Market Data for <%= symbol %></h2>
+
+  <p><strong>Last Price:</strong> <%= data.last_trade_price %></p>
+  <p><strong>24h High:</strong> <%= data.high_24h %></p>
+  <p><strong>24h Low:</strong> <%= data.low_24h %></p>
+  <p><strong>Volume:</strong> <%= data.volume_24h %></p>
+
+  <a href="/">Check Another</a>
+</body>
+</html>
